@@ -1,0 +1,176 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+.process{
+    border-radius: 30px;
+}
+.my-btn-style {
+    background-color: #f8f9fa;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  #search-form {
+    padding: 20px;
+  }
+
+  #highlight {
+    display: inline-block;
+    background: #fffa5a;
+    color: #000;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    color: #28A745
+}
+.carousel-indicators .active {
+    background-color: #28A745
+}
+.nav-link {
+    color: #28A745
+}
+.nav-link:focus, .nav-link:hover {
+    color: #28A745
+
+}
+.bg-light {
+    background-color: #ffffff !important;
+}
+.no-border {
+    border: none;
+  }
+
+.card-img-top {
+height: 250px; 
+width: 100%; 
+object-fit: cover;
+}
+.card .btn {
+    width: 100%;
+    border-radius: 30px;
+}
+.d-md-inline-flex.nav {
+    flex-wrap: wrap;
+  }
+.nav > ul {
+    text-decoration: none;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+
+.jumbotron img {
+    max-width: 100%;
+    height: auto;
+}
+
+.jumbotron {
+    position: relative; /* Make the jumbotron the reference point */
+  }
+  
+
+  .btn-warning {
+
+    margin-bottom: 5px;
+    border-radius: 30px;
+
+  }
+
+.transac{
+    margin-top:20px;
+    background-color: #f1f3f7;
+}
+
+.avatar-lg {
+    height: 5rem;
+    width: 5rem;
+}
+
+.font-size-18 {
+    font-size: 18px!important;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.w-xl {
+    min-width: 160px;
+}
+
+.card {
+    margin-bottom: 24px;
+    
+}
+.btn-success {
+    background-color: #3A5A40 !important;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #eff0f2;
+    border-radius: 1rem;
+}
+
+.sticky-sidebar {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 10px; 
+    align-self: flex-start; 
+    z-index: 1!important;
+    overflow-y: auto; 
+    background-color: #fff;
+  }
+
+  /* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: #ffffff; 
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background: #bdbdbd; 
+}
+
+/* Scrollbar Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #28A745
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+    width: 12px;
+}

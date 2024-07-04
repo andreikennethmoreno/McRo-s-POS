@@ -1,0 +1,18 @@
+cs50
+Flask
+Flask-Session
+requests
+
+## Salad Works  .com for data sample
+
+### install dependencies
+
+## pip install cs50
+## pip install Flask-Session
+## pip install requests
+
+
+## install extensions
+
+## SQL Lite extension 
+## view > comamnd pallete > search > SQL Lite Open database

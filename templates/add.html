@@ -1,0 +1,100 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    INVENTORY
+{% endblock %}
+
+{% block main %}
+
+<h1 class="p-3 my-5"style="text-align: center;">McRo's Menu 🥗</h1>
+
+
+<div class="container">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class=" col-lg-3 d-flex mb-5 overflow-auto bd-highlight sidebar text-align-start sticky-sidebar  border">
+      <ul class="nav flex-wrap flex-lg-column flex-md-row text-align-start">
+        <li class="nav-item py-3">
+          <form class="" method="get" action="/">
+            <input class="form-control me-2" type="text" placeholder="Search Menu" name="c" aria-label="Search" hidden value="">
+            <button class="btn" type="submit">
+              <div class="d-flex align-items-center">
+                <img height="80px" width="auto" src="https://i.pinimg.com/736x/24/41/33/24413333502018dd9515f160edd87df1.jpg">
+                <h5 class="ml-2">Menu</h5>
+            </div>
+          </form>
+
+        </li>
+        <li class="nav-item py-3 ">
+          <form class="" method="get" action="/">
+            <input class="form-control me-2" type="text" placeholder="Search Menu" name="c" aria-label="Search" hidden value="Sandwich">
+            <button class="btn" type="submit">
+              <div class="d-flex align-items-center">
+                <img height="80px" width="auto" src="https://saladworks.com/wp-content/uploads/2024/04/SW-menu-category-thumbnails-05.jpg">
+                <h5 class="ml-2">Sandwich</h5>
+              </div>
+            </button>
+          </form>
+        </li>
+        <li class="nav-item py-3 ">
+          <form class="" method="get" action="/">
+            <input class="form-control me-2" type="text" placeholder="Search Menu" name="c" aria-label="Search" hidden value="Wrap">
+            <button class="btn" type="submit">
+              <div class="d-flex align-items-center">
+                <img height="80px" width="auto" src="https://saladworks.com/wp-content/uploads/2024/04/wrap-thumbnail_405x270.jpg">
+                <h5 class="ml-2">Wrap</h5>
+              </div>
+            </button>
+          </form>
+        </li>
+        
+        <li class="nav-item py-3 ">
+          <form class="" method="get" action="/">
+            <input class="form-control me-2" type="text" placeholder="Search Menu" name="c" aria-label="Search" hidden value="Bowls">
+            <button class="btn" type="submit">
+              <div class="d-flex align-items-center">
+                <img height="80px" width="auto" src="https://saladworks.com/wp-content/uploads/2024/04/grain-bowls.jpg">
+                <h5 class="ml-2">Bowls</h5>
+              </div>
+            </button>
+          </form>
+        </li>
+
+        <li class="nav-item py-3 ">
+          <form class="" method="get" action="/">
+            <input class="form-control me-2" type="text" placeholder="Search Menu" name="c" aria-label="Search" hidden value="Drinks">
+            <button class="btn" type="submit">
+              <div class="d-flex align-items-center">
+                <img height="80px" width="auto" src="https://saladworks.com/wp-content/uploads/2024/04/SA-Menu-Category-Images-10.png">
+                <h5 class="ml-2">Drinks</h5>
+            </div>
+            </button>
+          </form>
+        </li>
+      </ul>
+    </div>
+    <!-- Main content -->
+    <div class="col-lg-9">
+      <div class="row">
+        {% for item in inventory %}
+        <div class="col-lg-4 col-md-4 col-sm-6 col-6 text-center"> 
+          <div class="card no-border">
+            <img class="card-img-top px-2" src="{{ item.image_url }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{ item.itemName }}</h5>
+              <p class="card-text">₱{{ item.price }}</p>
+              <a href="/item/{{ item.id }}" class="btn btn-success"><b>Order</b></a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+{% endblock %}

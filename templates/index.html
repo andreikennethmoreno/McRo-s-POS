@@ -1,0 +1,105 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sales
+{% endblock %}
+
+{% block main %}
+<div class="container">
+
+
+<h1 class="my-4">{{ heading }} Sales: {{ transactions|sum(attribute='total') }}</h1>
+<table class="table" method="GET">
+  <thead>
+    <tr>
+
+      <th scope="col">Transaction Code</th>
+      <th scope="col">Customer ID</th>
+      <th scope="col">Date Time</th>
+      <th scope="col">Item Id</th>
+      <th scope="col">Item Name</th>
+      <th scope="col">Item Category</th>
+      <th scope="col">Price</th>
+      <th scope="col">Total</th>
+
+    <div class="dropdown my-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Select Time Period
+      </button>
+      <ul class="dropdown-menu">
+        <li>
+          <div >
+            <form class="" method="post" action="/sales">
+              <input class="form-control me-2" type="text" placeholder="Search Menu" name="time_period" aria-label="Search" hidden value="daily">
+              <button id="buttonDaily" class="btn dropdown-item" type="submit" width="110%">daily</button>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div >
+            <form class="" method="post" action="/sales">
+              <input class="form-control me-2" type="text" placeholder="Search Menu" name="time_period" aria-label="Search" hidden value="weekly">
+              <button class="btn dropdown-item" type="submit">weekly</button>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div >
+            <form class="" method="post" action="/sales">
+              <input class="form-control me-2" type="text" placeholder="Search Menu" name="time_period" aria-label="Search" hidden value="monthly">
+              <button class="btn dropdown-item" type="submit">monthly</button>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div >
+            <form class="" method="post" action="/sales">
+              <input class="form-control me-2" type="text" placeholder="Search Menu" name="time_period" aria-label="Search" hidden value="yearly">
+              <button class="btn dropdown-item" type="submit">yearly</button>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div >
+            <form class="" method="post" action="/sales">
+              <input class="form-control me-2" type="text" placeholder="Search Menu" name="time_period" aria-label="Search" hidden value="all-time">
+              <button class="btn dropdown-item" type="submit">all-time</button>
+            </form>
+          </div>
+        </li>
+      
+      </ul>
+    </div>
+
+ 
+
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in transactions%}
+    <tr>
+
+      <td>{{ item.id }}</td>
+      <td>{{ item.user_id }}</td>
+      <td>{{ item.date_time }}</td>
+      <td>{{ item.item_id }}</td>
+      <td>{{ item.item_name }}</td>
+      <td>{{ item.category }}</td>
+      <td>{{ item.price }}</td>
+      <td>{{ item.total }}</td>
+
+
+      
+
+
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+</div>
+
+{% endblock %}
