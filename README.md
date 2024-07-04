@@ -1,10 +1,11 @@
 
+![image](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/8dd4cba4-363d-46ea-a958-849c31a29c04)
 
 
 
 # Hello, Sales & Inventory
 
-#### Video Demo:  <https://youtu.be/Nhw8xIoaILk>
+#### Video Demo:  <https://youtu.be/>
 
 #### Description:
 
@@ -36,3 +37,20 @@
 
 #### Finally the last page which is the Sales management page. This page displays transaction information, including the date and time of the sale, item ID, item name, item quantity, and total cost. Additionally, the page includes a total yearly sales figure, providing users with an at-a-glance summary of their sales performance over the year.
 
+![demo reciprt](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/6a670384-2804-4cd1-aece-50ec193ecc71)
+
+![127 0 0 1_5000_login](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/da8350ca-930a-4ada-857d-1eb0d8e1610e)
+![127 0 0 1_5000_register](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/e881b181-1589-4c23-80c4-f5544cf0dece)
+![127 0 0 1_5000_](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/c71856a0-0733-4c4c-978f-a7c5838ca8e9)
+![127 0 0 1_5000__c=Bowls](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/41ab2851-b59a-46a6-9553-8e1617a2494f)
+![127 0 0 1_5000_home](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/0213b8c9-9ef7-438d-8256-2f8f17884b91)
+![127 0 0 1_5000_item_26](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/a379be25-4a11-43dd-b333-545eb413ed20)
+![127 0 0 1_5000_cart](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/ef652944-9cdb-40d8-9e8c-8b2a2a38906c)
+![127 0 0 1_5000_cart (1)](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/45f2c355-fbbf-4379-9e07-87973fe68bf6)
+![127 0 0 1_5000_process](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/8f96bf53-a0cf-49f0-9a32-31b54845076f)
+
+
+![127 0 0 1_5000_sales](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/48cab797-bfd4-42bf-aa5a-dd9d2a9f38f7)
+![127 0 0 1_5000_sales (1)](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/e57de778-0444-4cdb-b149-dd62d46278a0)
+![127 0 0 1_5000_ (1)](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/da51c5ef-d645-4bcd-a8af-9d28c9f3029d)
+![127 0 0 1_5000_item_32](https://github.com/andreikennethmoreno/McRo-s-POS/assets/124364969/cd4e39fe-6206-494b-b5ed-bbb795a14226)
